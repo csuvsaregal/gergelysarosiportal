@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './i18n/config';
-import { NavBar } from './components/NavBar';
+import './i18n/locales/config';
+import NavigationBar from './components/NavBar'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <NavigationBar />
     <App />
+
   </React.StrictMode>
 );
 
