@@ -1,4 +1,10 @@
 {
     "home": "Home",
-    "galery": "Galery"
+    "galery": "Galery",
+    "projects": "Other Projects",
+    "qatraining": "Software testing",
+    "smart_home": "Smart Home",
+    "sport": "Sport",
+    "music": "Music",
+    "softwares": "Softwares"
   }

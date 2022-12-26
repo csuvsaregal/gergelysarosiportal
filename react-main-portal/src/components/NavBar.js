@@ -17,7 +17,7 @@ function NavBar() {
         <Nav className="me-auto">
             <Nav.Link href="#home">{t('home')}</Nav.Link>
             <Nav.Link href="#galery">{t('galery')}</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title={t('projects')} id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
                 Another action

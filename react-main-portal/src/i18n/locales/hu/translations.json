@@ -1,4 +1,10 @@
 {
     "home": "Főoldal",
-    "galery": "Galéria"
+    "galery": "Galéria",
+    "projects": "Egyéb munkák",
+    "qatraining": "Szoftvertesztelés",
+    "smart_home": "Okosotthon",
+    "sport": "Sport",
+    "music": "Zene",
+    "softwares": "Programok"
   }
