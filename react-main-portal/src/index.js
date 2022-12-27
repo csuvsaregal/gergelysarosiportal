@@ -4,12 +4,14 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import './i18n/locales/config';
-import NavigationBar from './components/NavBar'
+import NavigationBar from './components/NavBar';
+import CarouselFadeExample from './components/Slider';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
+        <CarouselFadeExample />
         <NavigationBar />
     </React.StrictMode>
 );

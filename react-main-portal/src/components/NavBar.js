@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,12 +9,12 @@ import i18n from '../i18n/locales/config';
 
 function NavBar() {
     const { t } = useTranslation();
-    const [language, setLanguage] = useState("en");
+    
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
       }
     return (   
-    <Navbar bg="dark" variant="dark" expand="lg" fixed='top'>
+    <Navbar bg="dark" variant="dark" expand="lg">
     <Container>
         <Navbar.Brand href="#home">{t('title')}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
