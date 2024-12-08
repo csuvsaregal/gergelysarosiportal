@@ -1,5 +1,5 @@
-# File formats to ignore
-*txt
+# Dev files
+DJANGOPARANCSOK.TXT
 
 # Byte-compiled files
 *.pyc
