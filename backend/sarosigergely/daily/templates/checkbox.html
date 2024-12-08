@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <script>
+        async function toggleCheckbox() {
+            const response = await fetch("/", {
+                method: "POST",
+                headers: {
+                    "X-CSRFToken": "{{ csrf_token }}"
+                }
+            });
+            const data = await response.json();
+            document.getElementById("checkbox").checked = data.is_checked;
+        }
+    </script>
+</head>
+<body>
+    <form method="POST" onsubmit="toggleCheckbox(); return false;">
+        {% csrf_token %}
+        <input type="checkbox" id="checkbox" name="checkbox" {% if is_checked %}checked{% endif %}>
+        <button type="submit">Csere</button>
+    </form>
+</body>
+</html>

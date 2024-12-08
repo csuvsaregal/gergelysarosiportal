@@ -1,2 +1,2 @@
 # gergelysarosiportal
- Opening portal for gergelysarosi.com
+ Webportal for sarosigergely.hu

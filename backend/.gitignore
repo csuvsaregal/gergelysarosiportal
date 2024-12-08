@@ -1,0 +1,76 @@
+# File formats to ignore
+*txt
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django stuff
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Local development environment
+.env
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# Testing
+*.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,[0-9]
+.cache/
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Node modules (if using Node.js for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+*.egg-info/
+dist/
+build/
+
+# Migrations
+migrations/*
+
+# Celery
+celerybeat-schedule
+
+# Gunicorn
+gunicorn*.pid
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db

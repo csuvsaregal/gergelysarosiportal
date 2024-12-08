@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamikus Lista</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dinamikus Lista</h1>
+        <div class="list-controls">
+            <input type="text" id="new-item-input" placeholder="Adj hozzá új elemet...">
+            <button id="add-item">Hozzáadás</button>
+        </div>
+        <ul id="dynamic-list">
+            <!-- A listaelemek ide kerülnek -->
+        </ul>
+    </div>
+</body>
+</html>
